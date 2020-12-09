@@ -15,7 +15,7 @@ If you have issues with any part of the installation and setup, please reach out
 
 ## Downloading the data ##
 
-The commands that you will be following can be found in markdown `(.md)` files where there is a brief description of the command and how it is applied to the data and what it does followed by an example command that you can copy and paste into the terminal window. The majority of day 1 and 2 will be using the terminal window on your local machine, with an open `ssh` connection to discovery7, as we will be running `bash` code. For some of day 2 and most of day 3 you will be using RStudio on your local machine to run the commands in the  markdown files (`.md`) located in this GitHub repo. 
+The commands that you will be following can be found in markdown `(.md)` files where there is a brief description of the command and how it is applied to the data and what it does followed by an example command that you can copy and paste into the terminal window. The majority of day 1 and 2 will be using the terminal window on your local machine, with an open `ssh` connection to discovery, as we will be running `bash` code. For some of day 2 and most of day 3 you will be using RStudio on your local machine to run the commands in the markdown files (`.md`) located in this GitHub repo. 
 
 To start make sure that you are able to use a terminal emulator, select one of the following based on your operating system, download it and open it up. 
 
@@ -32,7 +32,7 @@ In your terminal window navigate to where you want to download the files needed 
 git clone https://github.com/Dartmouth-Data-Analytics-Core/Bioinformatics_workshop_setup/
 ```
 
-**On Monday** before you log onto the first zoom session we will make the workshop materials public and you should download those to your local machine (prefereably in the same location as you downloaded the setup materials) with the folloing command: 
+**On Monday morning (repo will not be made oublic before then)** before you log onto the first zoom session we will make the workshop materials public and you should download those to your local machine (prefereably in the same location as you downloaded the setup materials) with the folloing command: 
 
 ```bash
 git clone https://github.com/Dartmouth-Data-Analytics-Core/Bioinformatics_workshop/
@@ -100,7 +100,14 @@ conda deactivate
 ---
 ## Installing an SFTP client ##
 
-This is optional but for those of you that are new to the command line this might be an easier way to move files between the HPC environment and your local machine. An SFTP client stands for secure file transfer protocol and will enable you to drag and drop files as you might in a finder window between your local machine and a remote location. I use FileZilla, which I believe works on Mac, Windows, and linux operating systems. You can download [FileZilla](https://filezilla-project.org/download.php?show_all=1) by following the link and selecting the version that is correct for your OS, then open the program to ensure that you have downloaded it successfully. 
+This is an optional step, but for those of you that are new to the command line this might be an easier way to move files between the HPC environment and your local machine. SFTP stands for *secure file transfer protocol* and will enable you to drag and drop files as you might in a finder window between your local machine and a remote location. 
+
+Available SFTP clients include:  
+- [FileZilla](https://filezilla-project.org/download.php?show_all=1) (which will be used for an example on day-2)
+- [Cyberduck](https://cyberduck.io/)
+...
+
+research computing mount instructrictions link 
 
 ---
 
