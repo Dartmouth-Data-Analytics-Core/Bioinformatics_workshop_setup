@@ -105,9 +105,9 @@ This is an optional step, but for those of you that are new to the command line 
 Available SFTP clients include:  
 - [FileZilla](https://filezilla-project.org/download.php?show_all=1) (which will be used for an example on day-2)
 - [Cyberduck](https://cyberduck.io/)
-...
+- [WinSCP](https://winscp.net/eng/download.php)
 
-research computing mount instructrictions link 
+Another option available to you is to create a mount point on your computer so that you can use the finder program as you would to access any directory on your local drive to access a remote location. Instructions for doing so on a [Mac](https://services.dartmouth.edu/TDClient/1806/Portal/KB/ArticleDet?ID=64646) and [Linux](https://rc.dartmouth.edu/index.php/hrf_faq/how-do-i-connect-to-dartfs-from-linux/) machine are provided by research computing.
 
 ---
 
