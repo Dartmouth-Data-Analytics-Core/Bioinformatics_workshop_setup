@@ -50,6 +50,12 @@ You will need to download and install the IGV desktop application for your opera
 
 ---
 
+## Register for a Discovery Account via Research Computing ##
+
+Most of the work that we will do on days 1 and 2 will require you to log on to the high performance computing network (HPCs) hosted by Dartmouth's research computing team. If you do not already have an account with RC you will need to register for one using your netID [here](https://caligari.dartmouth.edu/accounts/index.php). 
+
+---
+
 ## Setting up a Conda Environment ## 
 
 Conda is a package management system that helps you find, install, and organize groups of packages needed for a particular task. Conda environments are really useful when working on high performance computing (HPC) environments like Dartmouth's Discovery system because you can install packages locally without needing administrator permission. Conda environments are also useful for project continuity, the versions of the packages that you install in your environment and all of their dependencies will remain the same (unless you update them). We will be using a conda environment to make sure we all have the same version of many different bioinformatics software programs available to us. 
