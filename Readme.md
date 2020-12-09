@@ -4,6 +4,13 @@ Before you attend the workshop there are a couple of things we would like you to
 
 For those of you that indicated that you did not have an account on *discovery* you should have received an email from me explaing how to set that up, please make sure this is done and you are able to log into your account **BEFORE** the workshop begins. 
 
+If you have issues with any part of the installation and setup, please reach out to us directly, come to bioinformatics help hours **December 11, 2020 1-2PM**, or reach out via the slack channel. The links to both help hours and the slack channel are in your welcome email. 
+
+- Shannon Soucy (Shannon.Soucy@dartmouth.edu)
+- Owen Wilkins (omw@dartmouth.edu)
+- Tim Sullivan (Timothy.j.Sullivan@dartmouth.edu)
+
+
 ---
 
 ## Downloading the data ##
@@ -191,6 +198,3 @@ library(ChIPseeker)
 
 sessionInfo()
 ```
-
-If you have issues with any part of the installation and setup, please reach out to us directly (contact details are in the workshop ReadMe page) or come to bioinformatics help hours **December 11, 2020 1-2PM** the link is in your welcome email. 
-
