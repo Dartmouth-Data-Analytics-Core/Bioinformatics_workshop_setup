@@ -94,7 +94,7 @@ conda env create -f /scratch/fund_of_bioinfo/environment.yml
 When you are ready activate the conda environment, which you will need for the work we are doing for days 1 and 2 of the workshop you can use the following command. 
 
 ```bash
-conda activate bioinfo/
+conda activate bioinfo
 ```
 
 You will see that the activate command has worked when it reads (fund_of_bioinfo) rather than (base) to the left of the prompt. When you are finished using a conda environment it is good practice to deactivate your session with the following command.
