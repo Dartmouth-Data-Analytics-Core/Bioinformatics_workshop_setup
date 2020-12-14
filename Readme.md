@@ -146,12 +146,12 @@ if (!any(rownames(installed.packages()) == "GenomicRanges")){
 }
 library(biomaRt)
 
-if (!any(rownames(installed.packages()) == "GViz")){
+if (!any(rownames(installed.packages()) == "Gviz")){
   if (!requireNamespace("BiocManager", quietly = TRUE))
       install.packages("BiocManager")
-  BiocManager::install("GViz")
+  BiocManager::install("Gviz")
 }
-library(GViz)
+library(Gviz)
 
 if (!any(rownames(installed.packages()) == "org.Hs.eg.db")){
   if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -208,6 +208,7 @@ if (!any(rownames(installed.packages()) == "ChIPseeker")){
   BiocManager::install("ChIPseeker")
 }
 library(ChIPseeker)
-
+install("BSgenome.Mmusculus.UCSC.mm10")
+install("BSgenome.Mmusculus.UCSC.mm10.masked")
 sessionInfo()
 ```
